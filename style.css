@@ -1,0 +1,47 @@
+.main-container {
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8em auto 2em;
+}
+
+.main-title {
+    font-size: 3em;
+}
+
+.counter-value {
+    font-size: 5em;
+    margin-bottom: 0.25em;
+    color: black;
+}
+
+.positive {
+    font-size: 5em;
+    margin-bottom: 0.25em;
+    color: green;
+}
+
+.negative {
+    font-size: 5em;
+    margin-bottom: 0.25em;
+    color: red;
+}
+
+button {
+    padding: 0.5em;
+    margin: 0 0.25em 0;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: white;
+    transition: all 0.25s ease;
+}
+
+button:hover {
+    background-color: teal;
+    color: white;
+}
+
